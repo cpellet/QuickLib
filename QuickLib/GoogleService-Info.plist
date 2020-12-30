@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>757549403358-nb14qb0mng1g8e2klfbjbnftt8fkogo0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.757549403358-nb14qb0mng1g8e2klfbjbnftt8fkogo0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB2TPSG_Hrb0UzzEoyg6shWyv2HcaHk7qE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>757549403358</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cloud31.quicklib</string>
+	<key>PROJECT_ID</key>
+	<string>quicklib-aae59</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quicklib-aae59.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:757549403358:ios:8194200e4de5f938d1064f</string>
+	<key>DATABASE_URL</key>
+	<string>https://quicklib-aae59.firebaseio.com</string>
+</dict>
+</plist>

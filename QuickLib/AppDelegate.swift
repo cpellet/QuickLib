@@ -6,14 +6,25 @@
 //
 
 import UIKit
+import FirebaseCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    var knownISBNs: [String] = []
+    var shouldAddImmediately = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if let shortcutItem = launchOptions?[UIApplication.LaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
+               if shortcutItem.type == "AddAction" {
+                   shouldAddImmediately = true
+               }
+           }
+        FirebaseApp.configure()
+        getLocations(){locations in
+            if(locations?.count==0){lastLocation="<unknown>";return}
+            lastLocation = (locations?.first)!
+        }
         return true
     }
 

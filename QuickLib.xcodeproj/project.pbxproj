@@ -3,31 +3,76 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AA69C7EEE47FBF54B8507A /* Pods_QuickLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADA6733E40913C86C66FD23 /* Pods_QuickLib.framework */; };
+		EE30E1C224D6A54A0067D374 /* ManualAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30E1C124D6A54A0067D374 /* ManualAddViewController.swift */; };
+		EE56639A24C340C900B49FE2 /* OCRCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56639924C340C900B49FE2 /* OCRCaptureViewController.swift */; };
+		EE6AEE5524C1C7C90000C8DB /* BooksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AEE5424C1C7C90000C8DB /* BooksListViewController.swift */; };
+		EE6AEE5724C1D0AC0000C8DB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AEE5624C1D0AC0000C8DB /* Utilities.swift */; };
 		EEBC8A4424C170D00030F6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8A4324C170D00030F6F7 /* AppDelegate.swift */; };
 		EEBC8A4624C170D00030F6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8A4524C170D00030F6F7 /* SceneDelegate.swift */; };
-		EEBC8A4824C170D00030F6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8A4724C170D00030F6F7 /* ViewController.swift */; };
+		EEBC8A4824C170D00030F6F7 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8A4724C170D00030F6F7 /* ScanViewController.swift */; };
 		EEBC8A4B24C170D00030F6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBC8A4924C170D00030F6F7 /* Main.storyboard */; };
 		EEBC8A4D24C170D30030F6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBC8A4C24C170D30030F6F7 /* Assets.xcassets */; };
 		EEBC8A5024C170D30030F6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBC8A4E24C170D30030F6F7 /* LaunchScreen.storyboard */; };
+		EEBC8A5824C1A0EB0030F6F7 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8A5724C1A0EB0030F6F7 /* AddBookViewController.swift */; };
+		EEBC8A5A24C1A6E90030F6F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEBC8A5924C1A6E90030F6F7 /* GoogleService-Info.plist */; };
+		EEBCC91724C1DB470052B4E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBCC91624C1DB470052B4E4 /* SettingsViewController.swift */; };
+		EEBCC91924C1DECF0052B4E4 /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBCC91824C1DECF0052B4E4 /* LocationsTableViewController.swift */; };
+		EEDDEACD24C30F2900102CFB /* BookMetadataResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDDEACC24C30F2900102CFB /* BookMetadataResolver.swift */; };
+		EEDDEAD524C3171800102CFB /* QuickLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDDEAD424C3171800102CFB /* QuickLibTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EEDDEAD724C3171800102CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEBC8A3824C170D00030F6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBC8A3F24C170D00030F6F7;
+			remoteInfo = QuickLib;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		030E7FB98D7AC98054B717FA /* Pods-QuickLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickLib.debug.xcconfig"; path = "Target Support Files/Pods-QuickLib/Pods-QuickLib.debug.xcconfig"; sourceTree = "<group>"; };
+		3300815CF86ABE52A04AD260 /* Pods-QuickLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickLib.release.xcconfig"; path = "Target Support Files/Pods-QuickLib/Pods-QuickLib.release.xcconfig"; sourceTree = "<group>"; };
+		8ADA6733E40913C86C66FD23 /* Pods_QuickLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE30E1C124D6A54A0067D374 /* ManualAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAddViewController.swift; sourceTree = "<group>"; };
+		EE56639924C340C900B49FE2 /* OCRCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRCaptureViewController.swift; sourceTree = "<group>"; };
+		EE65E23324C5A63600543AED /* QuickLib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickLib.entitlements; sourceTree = "<group>"; };
+		EE6AEE5424C1C7C90000C8DB /* BooksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListViewController.swift; sourceTree = "<group>"; };
+		EE6AEE5624C1D0AC0000C8DB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EEBC8A4024C170D00030F6F7 /* QuickLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBC8A4324C170D00030F6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBC8A4524C170D00030F6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEBC8A4724C170D00030F6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEBC8A4724C170D00030F6F7 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		EEBC8A4A24C170D00030F6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEBC8A4C24C170D30030F6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEBC8A4F24C170D30030F6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEBC8A5124C170D30030F6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBC8A5724C1A0EB0030F6F7 /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		EEBC8A5924C1A6E90030F6F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEBCC91624C1DB470052B4E4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EEBCC91824C1DECF0052B4E4 /* LocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		EEDDEACC24C30F2900102CFB /* BookMetadataResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMetadataResolver.swift; sourceTree = "<group>"; };
+		EEDDEAD224C3171800102CFB /* QuickLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDDEAD424C3171800102CFB /* QuickLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLibTests.swift; sourceTree = "<group>"; };
+		EEDDEAD624C3171800102CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EEBC8A3D24C170D00030F6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AA69C7EEE47FBF54B8507A /* Pods_QuickLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDDEACF24C3171800102CFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91EA9CB68E0501B46F95E9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA6733E40913C86C66FD23 /* Pods_QuickLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEBC8A3724C170D00030F6F7 = {
 			isa = PBXGroup;
 			children = (
 				EEBC8A4224C170D00030F6F7 /* QuickLib */,
+				EEDDEAD324C3171800102CFB /* QuickLibTests */,
 				EEBC8A4124C170D00030F6F7 /* Products */,
+				F8C4226297035AB14C9AABC3 /* Pods */,
+				91EA9CB68E0501B46F95E9E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				EEBC8A4024C170D00030F6F7 /* QuickLib.app */,
+				EEDDEAD224C3171800102CFB /* QuickLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +113,43 @@
 		EEBC8A4224C170D00030F6F7 /* QuickLib */ = {
 			isa = PBXGroup;
 			children = (
+				EE65E23324C5A63600543AED /* QuickLib.entitlements */,
 				EEBC8A4324C170D00030F6F7 /* AppDelegate.swift */,
 				EEBC8A4524C170D00030F6F7 /* SceneDelegate.swift */,
-				EEBC8A4724C170D00030F6F7 /* ViewController.swift */,
+				EEBC8A4724C170D00030F6F7 /* ScanViewController.swift */,
+				EEBC8A5724C1A0EB0030F6F7 /* AddBookViewController.swift */,
+				EE30E1C124D6A54A0067D374 /* ManualAddViewController.swift */,
+				EE6AEE5424C1C7C90000C8DB /* BooksListViewController.swift */,
+				EEBCC91624C1DB470052B4E4 /* SettingsViewController.swift */,
+				EEBCC91824C1DECF0052B4E4 /* LocationsTableViewController.swift */,
+				EEDDEACC24C30F2900102CFB /* BookMetadataResolver.swift */,
+				EE56639924C340C900B49FE2 /* OCRCaptureViewController.swift */,
 				EEBC8A4924C170D00030F6F7 /* Main.storyboard */,
 				EEBC8A4C24C170D30030F6F7 /* Assets.xcassets */,
 				EEBC8A4E24C170D30030F6F7 /* LaunchScreen.storyboard */,
 				EEBC8A5124C170D30030F6F7 /* Info.plist */,
+				EEBC8A5924C1A6E90030F6F7 /* GoogleService-Info.plist */,
+				EE6AEE5624C1D0AC0000C8DB /* Utilities.swift */,
 			);
 			path = QuickLib;
+			sourceTree = "<group>";
+		};
+		EEDDEAD324C3171800102CFB /* QuickLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDEAD424C3171800102CFB /* QuickLibTests.swift */,
+				EEDDEAD624C3171800102CFB /* Info.plist */,
+			);
+			path = QuickLibTests;
+			sourceTree = "<group>";
+		};
+		F8C4226297035AB14C9AABC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				030E7FB98D7AC98054B717FA /* Pods-QuickLib.debug.xcconfig */,
+				3300815CF86ABE52A04AD260 /* Pods-QuickLib.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEBC8A5424C170D30030F6F7 /* Build configuration list for PBXNativeTarget "QuickLib" */;
 			buildPhases = (
+				FCCF8D5C2898C604FB72EEA3 /* [CP] Check Pods Manifest.lock */,
 				EEBC8A3C24C170D00030F6F7 /* Sources */,
 				EEBC8A3D24C170D00030F6F7 /* Frameworks */,
 				EEBC8A3E24C170D00030F6F7 /* Resources */,
+				3AE3FE22C6E00E659FAE080D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +173,24 @@
 			productName = QuickLib;
 			productReference = EEBC8A4024C170D00030F6F7 /* QuickLib.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EEDDEAD124C3171800102CFB /* QuickLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDDEADB24C3171800102CFB /* Build configuration list for PBXNativeTarget "QuickLibTests" */;
+			buildPhases = (
+				EEDDEACE24C3171800102CFB /* Sources */,
+				EEDDEACF24C3171800102CFB /* Frameworks */,
+				EEDDEAD024C3171800102CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDDEAD824C3171800102CFB /* PBXTargetDependency */,
+			);
+			name = QuickLibTests;
+			productName = QuickLibTests;
+			productReference = EEDDEAD224C3171800102CFB /* QuickLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +203,10 @@
 				TargetAttributes = {
 					EEBC8A3F24C170D00030F6F7 = {
 						CreatedOnToolsVersion = 12.0;
+					};
+					EEDDEAD124C3171800102CFB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = EEBC8A3F24C170D00030F6F7;
 					};
 				};
 			};
@@ -115,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				EEBC8A3F24C170D00030F6F7 /* QuickLib */,
+				EEDDEAD124C3171800102CFB /* QuickLibTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,25 +235,99 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEBC8A5024C170D30030F6F7 /* LaunchScreen.storyboard in Resources */,
+				EEBC8A5A24C1A6E90030F6F7 /* GoogleService-Info.plist in Resources */,
 				EEBC8A4D24C170D30030F6F7 /* Assets.xcassets in Resources */,
 				EEBC8A4B24C170D00030F6F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEDDEAD024C3171800102CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE3FE22C6E00E659FAE080D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickLib/Pods-QuickLib-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickLib/Pods-QuickLib-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickLib/Pods-QuickLib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCF8D5C2898C604FB72EEA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEBC8A3C24C170D00030F6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEBC8A4824C170D00030F6F7 /* ViewController.swift in Sources */,
+				EEDDEACD24C30F2900102CFB /* BookMetadataResolver.swift in Sources */,
+				EEBCC91924C1DECF0052B4E4 /* LocationsTableViewController.swift in Sources */,
+				EE6AEE5724C1D0AC0000C8DB /* Utilities.swift in Sources */,
+				EEBC8A4824C170D00030F6F7 /* ScanViewController.swift in Sources */,
+				EE30E1C224D6A54A0067D374 /* ManualAddViewController.swift in Sources */,
+				EE56639A24C340C900B49FE2 /* OCRCaptureViewController.swift in Sources */,
+				EEBCC91724C1DB470052B4E4 /* SettingsViewController.swift in Sources */,
+				EEBC8A5824C1A0EB0030F6F7 /* AddBookViewController.swift in Sources */,
+				EE6AEE5524C1C7C90000C8DB /* BooksListViewController.swift in Sources */,
 				EEBC8A4424C170D00030F6F7 /* AppDelegate.swift in Sources */,
 				EEBC8A4624C170D00030F6F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEDDEACE24C3171800102CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDDEAD524C3171800102CFB /* QuickLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEDDEAD824C3171800102CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEBC8A3F24C170D00030F6F7 /* QuickLib */;
+			targetProxy = EEDDEAD724C3171800102CFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EEBC8A4924C170D00030F6F7 /* Main.storyboard */ = {
@@ -283,9 +467,11 @@
 		};
 		EEBC8A5524C170D30030F6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030E7FB98D7AC98054B717FA /* Pods-QuickLib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuickLib/QuickLib.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R7R47P4Z7H;
 				INFOPLIST_FILE = QuickLib/Info.plist;
@@ -293,8 +479,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.QuickLib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.quicklib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,9 +489,11 @@
 		};
 		EEBC8A5624C170D30030F6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3300815CF86ABE52A04AD260 /* Pods-QuickLib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuickLib/QuickLib.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R7R47P4Z7H;
 				INFOPLIST_FILE = QuickLib/Info.plist;
@@ -312,10 +501,51 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.QuickLib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.quicklib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEDDEAD924C3171800102CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7R47P4Z7H;
+				INFOPLIST_FILE = QuickLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.QuickLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickLib.app/QuickLib";
+			};
+			name = Debug;
+		};
+		EEDDEADA24C3171800102CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7R47P4Z7H;
+				INFOPLIST_FILE = QuickLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.QuickLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickLib.app/QuickLib";
 			};
 			name = Release;
 		};
@@ -336,6 +566,15 @@
 			buildConfigurations = (
 				EEBC8A5524C170D30030F6F7 /* Debug */,
 				EEBC8A5624C170D30030F6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDDEADB24C3171800102CFB /* Build configuration list for PBXNativeTarget "QuickLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDDEAD924C3171800102CFB /* Debug */,
+				EEDDEADA24C3171800102CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
